@@ -34,9 +34,9 @@ html::-webkit-scrollbar-thumb{
 }
 
 body{
-    background:#eee;
-    background:gray;
-    padding-right: 5rem;
+    /* background:#eee; */
+    background:rgb(20, 20, 20);
+    /* padding-right: 5rem; */
 }
 
 section{
@@ -48,20 +48,22 @@ section{
     text-align: center;
     padding-bottom: 2rem;
     font-size: 6rem;
+    text-decoration: underline;
+    text-decoration-color: rgb(24, 189, 211);
     text-transform: uppercase;
-    color:#222;
+    color:rgb(240, 232, 235);
 }
 
 .heading span{
     text-transform: uppercase;
-    color:brown;
+    color:rgb(239, 243, 239);
 }
 
 .btn{
     display: inline-block;
     margin-top: 2rem;
     padding:.8rem 3rem;
-    background:#222;
+    background:rgb(175, 1, 1);
     color:#fff;
     font-size: 1.7rem;
     cursor: pointer;
@@ -72,9 +74,9 @@ section{
     letter-spacing: .2rem;
 }
 
-header{
+/* header{
     position: fixed;
-    top:0; right:0;
+     top:0; right:0; 
     min-height: 100vh;
     display: inline-flex;
     align-items: center;
@@ -109,7 +111,7 @@ header .navbar a:hover{
     cursor: pointer;
     font-size: 3rem;
     display: none;
-}
+} */
 
 .home{
     display: flex;
@@ -144,17 +146,17 @@ header .navbar a:hover{
     width:28rem;
     border-radius: 50%;
     object-fit: cover;
-    border:1rem solid black;
+    border:1rem solid rgb(46, 1, 88);
 }
 
 .home .content h3{
     font-size: 4rem;
-    color:rgb(13, 13, 14);
+    color:rgb(242, 245, 241);
     text-transform: uppercase;
 }
 
 .home .content h3 span{
-    color:#222;
+    color:rgb(247, 242, 242);
     text-transform: uppercase;
 }
 
@@ -188,12 +190,12 @@ header .navbar a:hover{
 }
 
 .about .row .content h6{
-    color:#000;
+    color:rgb(231, 78, 78);
     font-size: 4rem;
 }
 
 .about .row .content h6 span{
-    color:black;
+    color:rgb(231, 78, 78);
 }
 
 .about .row .content .info{
@@ -217,14 +219,14 @@ header .navbar a:hover{
 
 .about .row .content .box-container .box p{
     font-size: 1.7rem;
-    color:#000;
+    color:rgb(183, 211, 24);
     padding:.5rem 0;
     line-height: 2;
 }
 
 .about .row .content .box-container .box p span{
     color:var(--green);
-    color:#222;
+    color:rgb(10, 142, 182);
     font-weight: 900;
 }
 
@@ -238,25 +240,25 @@ header .navbar a:hover{
     flex:1 1 30rem;
     border-radius: .5rem;
     background:#fff;
-    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    box-shadow: 0 .5rem 1rem rgba(17, 17, 17, 0.1);
     padding:2rem;
     text-align: center;
 }
 
 .skills .box-container .box i{
-    color:black;
+    color:rgb(35, 11, 170);
     font-size: 5rem;
     padding:1rem 0;
 }
 
 .skills .box-container .box h3{
-    color:brown;
+    color:rgb(8, 8, 8);
     font-size: 2.5rem;
     padding-top:1rem;
 }
 
 .skills .box-container .box p{
-    color:#333;
+    color:rgb(253, 62, 62);
     font-size:1.7rem;
     padding:1rem 0;
     line-height: 2;
@@ -391,6 +393,46 @@ header .navbar a:hover{
 
 .contact .row form .btn{
     margin:.5rem 0;
+}
+
+.icon{
+    /* height: 100vh; */
+    display: flex;
+    font-size: 3rem;
+    margin-left: 30%;
+}
+.icon a{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(252, 251, 255);
+    border-radius: 50px;
+    text-align: center;
+    margin: 30px;
+    box-shadow: 1px 4px 2px 2px #faf7f7; 
+     line-height: 60px;
+}
+
+a i{
+    transition: all 0.3s linear;
+}
+
+a:hover i{
+    transform: scale(1.4);
+}
+
+.fa-instagram{
+    color: #e84393;
+}
+.fa-linkedin{
+    color: #3200e6;
+}
+
+.fa-githhub{
+    color: #171515;
+}
+
+.fa-envelope{
+    color: #4285F4;
 }
 
 .footer{
