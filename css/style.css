@@ -249,6 +249,11 @@ header .navbar a:hover{
     color:rgb(35, 11, 170);
     font-size: 5rem;
     padding:1rem 0;
+    transition: all 0.3s linear;
+}
+
+.box:hover i{
+    transform: scale(1.4);
 }
 
 .skills .box-container .box h3{
@@ -312,7 +317,7 @@ header .navbar a:hover{
     border-radius: .5rem;
     background:#fff;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
-    padding:2rem;
+    padding:2rem;   
 }
 
 .projects .box-container .box img{
@@ -320,6 +325,7 @@ header .navbar a:hover{
     width:100%;
     border-radius: .5rem;
     object-fit: cover;
+    
 }
 
 .projects .box-container .box h3{
@@ -332,6 +338,10 @@ header .navbar a:hover{
     color:#666;
     font-size: 1.5rem;
     padding:.5rem 0;
+}
+
+.projects .box-container .box btn{
+    margin-top: 50%;
 }
 
 .contact .row{
@@ -513,4 +523,15 @@ a:hover i{
         width:100%;
     }
 
+
+}
+
+@viewport{
+    zoom: 1.0;
+    width: extend-to-zoom;
+
+}
+@-ms-viewport{
+    zoom: 1.0;
+    width: extend-to-zoom;
 }
