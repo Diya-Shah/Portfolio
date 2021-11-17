@@ -419,11 +419,13 @@ header .navbar a:hover{
     text-align: center;
     margin: 30px;
     box-shadow: 1px 4px 2px 2px #faf7f7; 
-     line-height: 60px;
+    line-height: 60px;
+   
 }
 
 a i{
     transition: all 0.3s linear;
+    
 }
 
 a:hover i{
@@ -506,6 +508,25 @@ a:hover i{
         display: block;
         font-size: 3rem;
     }
+    
+    .icon{
+        /* height: 100vh; */
+        display: flex;
+        font-size: 3rem;
+        margin-left: 0%;
+    }
+    .icon a{
+        height: 30px;
+        width: 30px;
+        background-color: rgb(252, 251, 255);
+        border-radius: 50px;
+        text-align: center;
+        margin: 30px;
+        box-shadow: 1px 4px 2px 2px #faf7f7; 
+        line-height: 40px;
+       
+    }
+    
 
 }
 
@@ -522,6 +543,24 @@ a:hover i{
     .contact .row form .inputBox input{
         width:100%;
     }
+    .icon{
+        /* height: 100vh; */
+        display: flex;
+        font-size: 3rem;
+        margin-left: 0%;
+    }
+    .icon a{
+        height: 30px;
+        width: 30px;
+        background-color: rgb(252, 251, 255);
+        border-radius: 50px;
+        text-align: center;
+        margin: 30px;
+        box-shadow: 1px 4px 2px 2px #faf7f7; 
+        line-height: 40px;
+       
+    }
+    
 
 
 }
